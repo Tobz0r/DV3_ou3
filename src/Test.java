@@ -26,7 +26,7 @@ public class Test{
             m.printConfiguration();
             s = in.nextLine();
         }
-        if(m.isAcceptingConfiguration()){
+            if(m.isAcceptingConfiguration()){
             System.out.println("Input is accepted");
         }else{
             System.out.println("Input is rejected");

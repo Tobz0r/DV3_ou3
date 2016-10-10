@@ -9,6 +9,6 @@ public class TMFactory {
 
 
     public TuringMachine createMachine(InputStream in) throws IOException {
-
+        return new TuringMachine();
     }
 }
