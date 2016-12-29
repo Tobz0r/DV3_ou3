@@ -12,13 +12,14 @@ public class TuringMachine {
     private State startState;
     private State currentState;
     private int position;
-
+/*
     public static void main(String[] args){
         TuringMachine m = new TuringMachine();
         m.setInput("a b c d e f ");
         m.currentState=new State(2);
         m.printConfiguration();
     }
+    */
     public void setInput(String input){
         tape=input.replaceAll("\\s+","");;
         position=0;
